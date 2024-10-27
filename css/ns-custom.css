@@ -1,0 +1,189 @@
+/** layout **/
+
+.wrap h2 img {
+	width: 100%;
+	max-width: 100%;
+}
+	
+.ns-col-left {
+	float: left;
+	max-width: 60%;
+	width: 60%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.ns-col-right {
+	width: 300px;
+	background-color: #ededed;
+	border-radius: 12px;
+	float: left;
+	padding: 25px;	
+}
+
+.ns-col-right img {
+	max-width: 100%;
+}
+	
+/** form fields **/
+
+.form-table th {
+	line-height: 24px;
+}
+
+/** ns sidebar **/
+	
+.ns-side-widget {
+	border: solid 1px #ddd;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.1);
+	border-radius: .7em;
+	margin: .3em 0 .7em;
+	overflow: hidden;
+	padding: .7em 1.4em;
+}
+
+.ns-featured-widget, .ns-random-widget {
+	padding: 0;
+}
+
+.ns-side-widget .button, .ns-side-widget .button-secondary {
+	width: 100%;
+	text-align: center;
+	color: white !important;
+	background-color: #5ab9e9;
+	padding: .4em .7em !important;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius: .4em;
+	text-decoration: none;
+	height: auto;
+	box-shadow: 0;
+	border: 0 !important;
+}
+
+.ns-side-widget .button:hover, .ns-side-widget .button-secondary:hover {
+	background-color: #7ad9ff;
+}
+
+.ns-side-widget .ns-featured-widget, .ns-side-widget .ns-random-widget {
+	margin: .3em 0 .7em;
+	overflow: hidden;
+	padding: .7em 1.4em;
+}
+
+.ns-featured-widget img, .ns-random-widget img {
+	vertical-align: bottom;
+}
+
+.ns-share-widget a {
+	text-decoration: none !important;
+}
+
+.ns-share-widget {
+	text-align: center;
+}
+
+#artesans_settings_redirect_form input[type="submit"],
+    #artesans_settings_redirect_form .form-table {
+        position:absolute;
+        right:3000px;
+    }
+    
+    #search_redirections_table input[type="text"] {
+        min-width:100%;
+        max-width:100%;
+        box-sizing:botder-box;
+        min-height:35px;
+        font-size:16px;
+        line-height:35px;
+        padding:0 10px;
+    }
+
+    .btn {
+        display:inline-block;
+        font-weight:normal;
+        text-transform:uppercase;
+        min-height:35px;
+        font-size:16px;
+        line-height:35px;
+        padding:0 10px;
+        background:#00cec9;
+        border-radius:0;
+        cursor:pointer;
+        color:#fff;
+        border:0;
+        font-size:14px;
+	}
+	
+	.btn:hover,
+	.btn:active {
+		background:#81ecec;
+	}
+
+    .btn + .btn {
+        margin-left:10px;
+    }
+
+    .btn-save {
+        background:#0984e3;
+	}
+	
+	.btn-save:hover,
+	.btn-save:active {
+		background:#74b9ff;
+	}
+
+    .btn-delete {
+		background:#ff7675;
+		min-width:90%;
+	}
+
+	.btn-delete:hover,
+	.btn-delete:active {
+		background:#d63031;
+	}
+	
+	.btn .dashicons {
+		line-height:inherit;
+		font-size:22px;
+		transform:translate(-2px,1px);
+	}
+
+	.artesans-logo {
+		border-top:2px solid #000;
+		margin-top:25px;
+	}
+
+	.artesans-logo svg {
+		display:block;
+		margin:30px 0;
+		width:150px;
+		height:53px;
+	}
+
+	.artesans-logo svg .artesans-lettering path {
+		fill:#000!important;
+	}
+
+	.artesans-urls {
+		min-width:220px;
+		margin:30px 0;
+		text-align:left;
+	}
+
+	.redir-row {
+		animation-name:rowenter;
+		animation-duration:.5s;
+		animation-iteration-count: 1;
+	}
+
+	@keyframes rowenter {
+		from {
+			transform:translateY(-100%);
+			opacity:0;
+		}
+		to {
+			transform:translateY(0);
+			opacity:.99;
+		}
+	}
